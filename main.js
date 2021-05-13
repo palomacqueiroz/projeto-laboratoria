@@ -15,11 +15,8 @@ if (inicioJogo == 1) {
             document.write( "\n Resposta 1 Correta.");
         } else{
             document.write( "\n Resposta 1 Incorreta.");    
-        }
+        }   
     
-    //const capitalBrasil = document.getElementById("primeiraPergunta");
-    //capitalBrasil.innerHTML= "a"
-
     const segundaPergunta = prompt("2.Qual a capital do Peru? \n a)Cusco \n b)Lima \n c)Trujillo");
         if(segundaPergunta == "b"){
             const capitalPeru = document.getElementById("segundaPergunta");          
@@ -28,9 +25,6 @@ if (inicioJogo == 1) {
             document.write( "\n Resposta 2 Incorreta.");    
         }
 
-    //const capitalPeru = document.getElementById("segundaPergunta");
-    //segundaPergunta.innerHTML= "b " 
-
     const terceiraPergunta = prompt("3.Qual a capital do Colombia? \n a)Bucaramanga \n b)Barranquilla \n c)Bogota");
         if(terceiraPergunta == "c"){
             const capitalColombia = document.getElementById("terceiraPergunta");            
@@ -38,9 +32,6 @@ if (inicioJogo == 1) {
         } else{
             document.write( "\n Resposta 3 Incorreta.");    
         }
-
-    //const capitalColombia = document.getElementById("nome");
-    //terceiraPergunta.innerHTML= "c " !"
 }else {
     alert ("Obrigada por participar.");
 
