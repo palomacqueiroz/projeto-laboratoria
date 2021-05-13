@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.principal {
+    text-align: center;
+    background-color: rgb(242, 255, 0);
+    border: 3px solid rgb(8, 54, 6);
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.respostas {
+    text-align: center;
+    text-decoration-line: underline;
+    background-color: rgb(247, 244, 179);
+    border: 3px solid rgb(8, 54, 6);    
+    border-radius: 10px;
+    margin: 0 2px 5px 2px;
+}
+
+
+.resp-correta {
+    float:left;
+    border: 3px solid rgb(8, 54, 6);
+    border-radius: 30px;
+    background-color: rgb(31, 167, 79);
+    padding: 80px 30px 80px 30px;
+    margin-left: 30px;
+
+
+}
+
+.resp-incorretas {
+    float: right;
+    border: 3px solid rgb(8, 54, 6);
+    border-radius: 30px;
+    background-color: rgb(169, 8, 8);
+    color: white;
+    padding: 80px 30px 80px 30px;
+    margin-right: 30px;
+
+}
