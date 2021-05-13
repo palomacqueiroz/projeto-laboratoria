@@ -10,6 +10,13 @@ body {
     margin: 2px;
 }
 
+.imagem {
+    width: 50px;
+    float: left;
+    margin: 15px 0 0 20px ;
+    border-radius: 5px;
+}
+
 .respostas {
     text-align: center;
     text-decoration-line: underline;
